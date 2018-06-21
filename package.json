@@ -1,17 +1,18 @@
 {
-  "name": "barcode-scanner",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@dgerritsen/barcode-scanner",
+  "version": "4.7.0",
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": "ionic",
+  "license": "MIT",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.2.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@angular/core": "^6.0.6",
-    "@ionic-native/core": "^4.7.0",
-    "rxjs": "^6.2.1",
-    "rxjs-compat": "^6.2.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/ionic-native.git"
   }
 }
